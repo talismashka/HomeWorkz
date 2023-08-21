@@ -1,0 +1,27 @@
+div{
+    color: green;
+}
+.block{
+    color: red;
+}
+#id-block{
+    color: rgb(55, 204, 224);
+}
+[data-exemple]{
+    color: brown;
+}
+[data-exemple="value2"]{
+    color: orange;
+}
+.block3, .block4, .block5{
+    color: rgb(11, 11, 106);
+}
+div.blue-block{
+    color: yellowgreen;
+}
+div .orange{
+    color: orange;
+}
+.parent>.child{
+    color: plum;
+}
