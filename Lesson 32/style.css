@@ -1,0 +1,28 @@
+.block, .inline {
+    background: rgb(189, 47, 185);
+    color: white;
+}
+
+/* ======================================== */
+.block {
+    /* border: 10px groove rgb(72, 146, 123);
+border-top: 15px double #000;
+
+border-width: 10px;
+border-style: dotted;
+border-color: greenyellow;
+
+border-bottom-color: #a145e3; */
+/* border: 10px double black; */
+/* border-radius: 30px; */
+outline: 10px groove greenyellow;
+}
+
+.inline {
+    /* border: 1px solid black; */
+}
+
+.img {
+    border-radius: 20%;
+    border: 10px solid rgb(163, 30, 173);
+}

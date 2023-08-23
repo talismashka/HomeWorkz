@@ -1,0 +1,28 @@
+.block, .inline {
+    background: rgb(189, 47, 185);
+    color: white;
+}
+body{
+    font-size: 40px;
+}
+*{
+    box-sizing: border-box;
+}
+.block {
+padding: 30px;
+margin: 50px;
+}
+/* ======================================== */
+.block {
+box-shadow: 10px 15px 20px 10px rgb(22, 139, 88), 20px -30px 20px 10px rgb(25, 207, 40);;
+border-radius: 30px;
+}
+
+.inline {
+    /* box-shadow: -10px 15px 20px 10px rgb(22, 139, 88); */
+
+}
+
+.img {
+    box-shadow: 20px 20px 10px 10px rgb(57, 156, 237);
+}
