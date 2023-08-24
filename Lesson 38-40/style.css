@@ -1,0 +1,68 @@
+body {
+    font-size: 40px;
+    background: #16171b;
+    margin: 20px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.fb {
+    display: flex;
+    border: 20px solid #edddbd;
+    min-height: 50vh;
+    min-height: 100vh;
+    box-shadow: 0 0 3.75rem -0.625rem #00000066;
+}
+
+.fb_it {
+    border: 20px solid #b9a074;
+}
+
+.fb_it:nth-child(2) .fb_con {
+    padding: 60px 40px;
+}
+
+.fb_con {
+    border: none;
+    padding: 40px;
+    background: linear-gradient(#6d4b1e, #7e5926);
+}
+
+/* ========================================== */
+/* 38-39 lesson */
+/* ================ */
+/* .fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.fb_it-one{
+align-self: start; 
+order: 3;
+flex-basis: 30%;
+flex-grow: 1;
+flex-shrink: 0;
+}
+.fb_it-two{
+order: 2;
+flex-basis:400px;
+flex-grow: 1;
+}
+.fb_it-three{
+order: 1;
+flex-basis: auto;
+} */
+/* ============= */
+/* 40 lesson */
+/* ============= */
+.fb{
+    display: start;
+flex-direction: column;
+/* align-items: center;
+justify-content: space-between; */
+}

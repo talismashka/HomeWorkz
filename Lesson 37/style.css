@@ -1,0 +1,28 @@
+body {
+    font-size: 40px;
+    background: #fff7f7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    margin: 8vw;
+    height: 40vh;
+    box-shadow: 0 0.5vw 3vw black;
+    border-radius: 2vw;
+    background: #ffffff;
+}
+
+/* ================================ */
+.block {
+    overflow: auto;
+    background: url("https://www.sccnewsbyte.co.uk/wp-content/uploads/2020/08/securitythumbnail400x400.png") 50% 50% /contain no-repeat, rgb(91, 91, 222);
+    /* background: #b63cb2; */
+    /* background-image: radial-gradient(white,blue,black 80%); */
+    /* background-repeat: no-repeat; */
+    /* background-position: 50% 50%; */
+    /* background-attachment: scroll; */
+    /* background-size: 400px auto; */
+}
