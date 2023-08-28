@@ -1,0 +1,25 @@
+button {
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+    margin-top: 8px;
+width: 200px;
+height: 30px;
+}
+textarea{
+    margin-top: 10px;
+}
+
+input, select {
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(93, 219, 247);
+    width: 200px;
+    height: 30px;
+}
+fieldset{
+    background: grey;
+}
+legend{
+    background-color: rgb(231, 227, 35);
+    border-radius: 7px;
+}
